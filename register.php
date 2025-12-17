@@ -82,7 +82,7 @@ body {
     font-family: Arial;
     min-height: 100vh;
     margin: 0;
-    background: url("https://i.pinimg.com/736x/e0/fb/42/e0fb42e8c6c391fb298d7ff2b57088a9.jpg");
+    background: url("https://i.pinimg.com/1200x/c8/48/0f/c8480f99fe46235fb40a09f1cd93d9db.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -91,9 +91,9 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 550px;
     background: rgba(255,255,255,0.8);
-    padding: 30px;
+    padding: 40px;
     border-radius: 12px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     
@@ -107,6 +107,7 @@ input {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
+    border-radius: 10px;
 }
 
 .error {
@@ -125,10 +126,19 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background: #007bff;
+    background: #f00101ff;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.error{
+    padding-bottom: 10px;
 }
 
 </style>
